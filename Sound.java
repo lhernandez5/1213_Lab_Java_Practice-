@@ -83,7 +83,8 @@ public class Sound extends SimpleSound
   }
   
   /**
-   * Method 65 to double the volume (amplitude) of the sound
+   * Double the volume (amplitude) of the sound
+   * 67
    */
   
   public void increaseVolume()
@@ -105,9 +106,10 @@ public class Sound extends SimpleSound
   }
   
   /**
-   * Method 68 to change the volume (amplitude) of the sound by multipying the 
+   * Change the volume (amplitude) of the sound by multipying the 
    * current values in the sound by the passed factor.
    * @param factor the factor to multiply by
+   * 68
    */
   public void changeVolume(double factor)
   {
@@ -125,7 +127,8 @@ public class Sound extends SimpleSound
   }
   
     /**
-     * Method 69 to Normalize (make as loud as possible) a sound.
+     * Normalize (make as loud as possible) a sound.
+     * 69
      */
     public void normalize()
     {
@@ -165,9 +168,10 @@ public class Sound extends SimpleSound
   }
       
       /**
-       * Method 70 to set all the sample values to the maximum positive value if 
+       * Set all the sample values to the maximum positive value if 
        * they were positive (including 0) and the minimum negative value if they
-       * were negative.
+       * were negative. 
+       * 70
       */
       public void forceToExtremes()
       {
@@ -269,10 +273,6 @@ public class Sound extends SimpleSound
           this.setSampleValueAt(targetIndex, orig.getSampleValueAt(sourceIndex));
       
       }
-      
-      
-      
-      
       
       
       
